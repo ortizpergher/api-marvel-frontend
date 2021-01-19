@@ -3,7 +3,7 @@ import axios from 'axios';
 export default class App {
 
     constructor() {
-        this.baseUrl = 'http://localhost:3333/characters';
+        this.baseUrl = 'https://api-marvel-ortiz.herokuapp.com/characters';
     }
 
     async getCharacters(offset = 0) {
